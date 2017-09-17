@@ -22,7 +22,7 @@ public class LoginCRM {
 		WebElement label = driver.findElement(By.id("ctl00_lblcompanyname"));
 		String actualResult = label.getText();
 		String expectedResult = "Techcanvass";
-		Assert.assertEquals(actualResult, expectedResult, "Does not match");
+		Assert.assertEquals(actualResult, expectedResult, "Does not match - Changed in 17Sep");
 	}
 
 	@BeforeMethod
